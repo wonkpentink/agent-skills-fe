@@ -791,6 +791,20 @@ const debouncedSearch = useDebounce(searchValue, 300)
 const { data } = useFetchResults(debouncedSearch) // Include debounced value
 ```
 
+## Related Skills
+
+**Prerequisites**
+- [custom-react-hooks](../custom-react-hooks/SKILL.md) - For data fetching and state management in features
+- [reusable-ui-components](../reusable-ui-components/SKILL.md) - For composing UI components in features
+
+**Often Used Together**
+- [form-validation-schemas](../form-validation-schemas/SKILL.md) - For validating forms in feature workflows
+- [full-page-screen-components](../full-page-screen-components/SKILL.md) - Features integrated into pages
+
+**Can Reference**
+- [constants-static-data](../constants-static-data/SKILL.md) - For feature configuration and option data
+- [typescript-type-definitions](../typescript-type-definitions/SKILL.md) - For typing feature component props and state
+
 ## References
 
 - [React Hooks Official Guide](https://react.dev/reference/react/hooks)

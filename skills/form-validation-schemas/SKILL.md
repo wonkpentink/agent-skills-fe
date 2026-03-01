@@ -1339,12 +1339,19 @@ export const submitSchema = yup.object({
 
 ---
 
-## References
+## Related Skills
 
-### Related Skills
-- **Custom React Hooks:** Integration with react-hook-form and useQuery
-- **Reusable UI Components:** Form input components using these schemas
-- **Feature-Specific Business Logic:** Features consuming these schemas
+**Prerequisites**
+- [typescript-type-definitions](../typescript-type-definitions/SKILL.md) - For typing form schemas and API responses
+
+**Often Used Together**
+- [reusable-ui-components](../reusable-ui-components/SKILL.md) - Form input components that use yupResolver with these schemas
+- [feature-specific-business-logic](../feature-specific-business-logic/SKILL.md) - Features containing forms using these validation schemas
+
+**Can Reference**
+- [constants-static-data](../constants-static-data/SKILL.md) - For form option constants in conditional validation
+
+## References
 
 ### External Documentation
 - **Yup Documentation:** https://github.com/jquense/yup - Schema validation

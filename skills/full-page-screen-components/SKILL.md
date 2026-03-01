@@ -787,6 +787,20 @@ useEffect(() => {
 const memoized = useMemo(() => processData(), [data])
 ```
 
+## Related Skills
+
+**Prerequisites**
+- [react-router-configuration](../react-router-configuration/SKILL.md) - For understanding routing and navigation in pages
+- [layout-wrapper-components](../layout-wrapper-components/SKILL.md) - For layout structure wrapping pages
+
+**Often Used Together**
+- [custom-react-hooks](../custom-react-hooks/SKILL.md) - For data fetching and state management in pages
+- [feature-specific-business-logic](../feature-specific-business-logic/SKILL.md) - For composing feature logic into pages
+
+**Can Reference**
+- [global-state-management-zustand](../global-state-management-zustand/SKILL.md) - For page-wide state management
+- [reusable-ui-components](../reusable-ui-components/SKILL.md) - For composing UI components in pages
+
 ## References
 
 - [React Router Documentation](https://reactrouter.com/)

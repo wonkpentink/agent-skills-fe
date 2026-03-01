@@ -375,9 +375,9 @@ export const router = createBrowserRouter([
 
 ## Related Skills
 
-- **Custom React Hooks**: Use `useParams()`, `useNavigate()` in route components
-- **Layout Wrapper Components**: Build PrivateLayout and PublicLayout to wrap route children
-- **Full Page Screen Components**: Create page components rendered by routes
+**Often Used Together**
+- [layout-wrapper-components](../layout-wrapper-components/SKILL.md) - Build PrivateLayout and PublicLayout to wrap route children
+- [full-page-screen-components](../full-page-screen-components/SKILL.md) - Create page components rendered by routes
 
 ---
 

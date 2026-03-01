@@ -425,9 +425,15 @@ const statusStyles = {
 
 ## Related Skills
 
-- **Custom React Hooks**: For creating `useTheme()` hook to access theme in components
-- **Global Context Providers**: For creating ThemeProvider to wrap app with theme context
-- **TypeScript Type Definitions**: For creating robust theme type interfaces
+**Prerequisites**
+- [typescript-type-definitions](../typescript-type-definitions/SKILL.md) - For creating robust theme type interfaces
+
+**Often Used Together**
+- [reusable-ui-components](../reusable-ui-components/SKILL.md) - Components that consume theme values and design tokens
+
+**Can Reference**
+- [static-files-assets](../static-files-assets/SKILL.md) - For organizing icon and image assets that align with theme
+- [global-context-providers](../global-context-providers/SKILL.md) - For creating ThemeProvider to wrap app with theme context
 
 ---
 

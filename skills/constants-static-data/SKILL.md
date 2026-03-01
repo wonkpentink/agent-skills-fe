@@ -1186,12 +1186,16 @@ export const getOptions = (category: string) => {
 
 ---
 
-## References
+## Related Skills
 
-### Related Skills
-- **Reusable UI Components:** Uses these constants for form inputs
-- **Form Validation Schemas:** References option values in validation
-- **Custom React Hooks:** Uses constants for configuration
+**Often Used Together**
+- [reusable-ui-components](../reusable-ui-components/SKILL.md) - Uses these constants for form select options and UI configuration
+- [form-validation-schemas](../form-validation-schemas/SKILL.md) - References option values in conditional validation logic
+
+**Can Reference**
+- [typescript-type-definitions](../typescript-type-definitions/SKILL.md) - For typing option objects and enums
+
+## References
 
 ### External Documentation
 - **React Select:** https://react-select.com/ - Select component accepting options

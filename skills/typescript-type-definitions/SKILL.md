@@ -540,6 +540,16 @@ const contactValidationSchema = yup.object().shape<ContactInformationForm>({
 - **Don't duplicate type definitions** - Reuse and compose types
 - **Don't ignore API response structure** - Understand the source of truth
 
+## Related Skills
+
+**Often Used Together**
+- [form-validation-schemas](../form-validation-schemas/SKILL.md) - For validating form types and schemas
+- [api-client-services](../api-client-services/SKILL.md) - For typing API request/response payloads
+
+**Can Reference**
+- [constants-static-data](../constants-static-data/SKILL.md) - For combining with type unions (status types)
+- [reusable-ui-components](../reusable-ui-components/SKILL.md) - For component prop type definitions
+
 ## Troubleshooting
 
 | Issue | Solution |

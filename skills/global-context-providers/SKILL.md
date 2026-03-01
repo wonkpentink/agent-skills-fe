@@ -661,6 +661,14 @@ export const createQueryClient = () => {
 };
 ```
 
+## Related Skills
+
+**Prerequisites**
+- [global-state-management-zustand](../global-state-management-zustand/SKILL.md) - For initializing QueryClient and context providers
+
+**Often Used Together**
+- [custom-react-hooks](../custom-react-hooks/SKILL.md) - For using React Query hooks in components
+
 ## Summary
 
 Global context providers establish the foundational services and context available to your entire application. Use AppProviders as the root wrapper with React Query's QueryClientProvider for data fetching capabilities. Keep QueryClient configuration centralized, conditionally render development tools based on environment, and stack multiple providers correctly to ensure all child components have access to necessary contexts. The provider pattern is fundamental to application architecture and enables feature-rich functionality throughout your app.

@@ -650,6 +650,15 @@ return (
 );
 ```
 
+## Related Skills
+
+**Prerequisites**
+- [react-router-configuration](../react-router-configuration/SKILL.md) - For understanding routes wrapped by layout
+- [global-state-management-zustand](../global-state-management-zustand/SKILL.md) - For accessing auth state in layouts
+
+**Often Used Together**
+- [full-page-screen-components](../full-page-screen-components/SKILL.md) - Pages rendered within layout
+
 ## Summary
 
 Layout wrapper components provide the structural foundation for your application's routing system. Use `PrivateLayout` for authenticated routes with auth validation, and `PublicLayout` for guest routes without authentication requirements. Keep layouts focused on structure, let `<Outlet />` handle nested route rendering, and handle all authentication checks at the layout level for centralized security.

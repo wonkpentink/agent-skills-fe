@@ -787,6 +787,18 @@ setToken: (token) => set({ token })
 setToken: (token) => { this.token = token }
 ```
 
+## Related Skills
+
+**Prerequisites**
+- [typescript-type-definitions](../typescript-type-definitions/SKILL.md) - For typing store state and actions
+
+**Often Used Together**
+- [custom-react-hooks](../custom-react-hooks/SKILL.md) - For using store state in component hooks
+- [api-client-services](../api-client-services/SKILL.md) - For managing API communication state
+
+**Can Reference**
+- [global-context-providers](../global-context-providers/SKILL.md) - For providing store state to app via context
+
 ## References
 
 - [Zustand Official Documentation](https://github.com/pmndrs/zustand)

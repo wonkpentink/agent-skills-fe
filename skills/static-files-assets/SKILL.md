@@ -535,6 +535,14 @@ import logo from '../../../assets/react.svg';
 - For `src/` assets: use ES6 import
 - Check that public folder is served correctly
 
+## Related Skills
+
+**Often Used Together**
+- [reusable-ui-components](../reusable-ui-components/SKILL.md) - For using assets in component implementations
+- [theme-replication](../theme-replication/SKILL.md) - For aligning assets with design tokens and color system
+
+---
+
 ## Key Takeaways
 
 - **`src/assets/`**: Use for component-specific, optimized, bundled assets (small icons, logos used in code)

@@ -753,6 +753,19 @@ const Modal = ({ children, onClose }) => {
 }
 ```
 
+## Related Skills
+
+**Prerequisites**
+- [typescript-type-definitions](../typescript-type-definitions/SKILL.md) - For component prop interfaces and type safety
+
+**Often Used Together**
+- [theme-replication](../theme-replication/SKILL.md) - For consistent design tokens and styling
+- [form-validation-schemas](../form-validation-schemas/SKILL.md) - For integration with form validation in components
+
+**Can Reference**
+- [constants-static-data](../constants-static-data/SKILL.md) - For component option data and configuration
+- [static-files-assets](../static-files-assets/SKILL.md) - For icons and images used in components
+
 ## References
 
 - [React Functional Components](https://react.dev/learn#components)

@@ -956,12 +956,21 @@ export const fetchContactList = async (params: any, signal?: AbortSignal) => {
 
 ---
 
-## References
+## Related Skills
 
-### Related Skills
-- **Custom React Hooks:** For wrapping service functions in useQuery/useMutation
-- **Global State Management (Zustand):** For auth token storage and retrieval
-- **Installation & Initial Setup:** For environment variable configuration
+**Prerequisites**
+- [typescript-type-definitions](../typescript-type-definitions/SKILL.md) - For API response type definitions
+- [general-utility-functions](../general-utility-functions/SKILL.md) - For encryption and crypto utilities
+- [installation-and-initial-setup](../installation-and-initial-setup/SKILL.md) - For environment variable configuration
+
+**Often Used Together**
+- [custom-react-hooks](../custom-react-hooks/SKILL.md) - For wrapping service functions in useQuery/useMutation
+- [global-state-management-zustand](../global-state-management-zustand/SKILL.md) - For auth token storage and retrieval
+
+**Can Reference**
+- [constants-static-data](../constants-static-data/SKILL.md) - For configuration constants and status mappings
+
+## References
 
 ### Environment Variables Required
 ```

@@ -142,6 +142,10 @@ my-awesome-skill/
 | Description too short | Add capabilities, triggers, and keywords |
 | Assets not found | Use relative paths from skill root |
 
+## Related Skills
+
+This is a meta-skill for creating other skills. No direct dependencies, but useful for extending the agent skills system.
+
 ## References
 
 - Agent Skills official spec: <https://agentskills.io/specification>

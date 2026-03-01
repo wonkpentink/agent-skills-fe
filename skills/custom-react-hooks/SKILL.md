@@ -821,6 +821,20 @@ useEffect(() => {
 }, [])
 ```
 
+## Related Skills
+
+**Prerequisites**
+- [api-client-services](../api-client-services/SKILL.md) - For building query and mutation hooks
+- [global-state-management-zustand](../global-state-management-zustand/SKILL.md) - For integrating hooks with global state
+
+**Often Used Together**
+- [feature-specific-business-logic](../feature-specific-business-logic/SKILL.md) - Features using custom hooks for data management
+- [full-page-screen-components](../full-page-screen-components/SKILL.md) - Pages consuming data fetching hooks
+
+**Can Reference**
+- [typescript-type-definitions](../typescript-type-definitions/SKILL.md) - For typing hook return values and parameters
+- [form-validation-schemas](../form-validation-schemas/SKILL.md) - For validating mutation data in hooks
+
 ## References
 
 - [React Hooks Official Guide](https://react.dev/reference/react/hooks)

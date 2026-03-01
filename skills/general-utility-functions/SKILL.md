@@ -1242,12 +1242,16 @@ const amount = formatSafely(price, rupiahCurrencyFormat);
 
 ---
 
-## References
+## Related Skills
 
-### Related Skills
-- **API Client & Services:** Uses utilities for encryption and formatting
-- **Custom React Hooks:** Uses utilities for debouncing and validation
-- **Installation & Initial Setup:** Environment variables setup
+**Often Used Together**
+- [api-client-services](../api-client-services/SKILL.md) - Uses encryption utilities for token handling and HMAC signing
+- [global-state-management-zustand](../global-state-management-zustand/SKILL.md) - Uses utilities for validation and formatting in store operations
+
+**Can Reference**
+- [typescript-type-definitions](../typescript-type-definitions/SKILL.md) - For typing utility function parameters and return values
+
+## References
 
 ### Environment Variables Required
 ```

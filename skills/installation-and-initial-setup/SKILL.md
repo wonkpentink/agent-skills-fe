@@ -777,6 +777,16 @@ npm run build-staging
 4. **Create first feature** following the pattern in `src/features/`
 5. **Read the SETUP.md documentation** for deeper understanding of architecture
 
+## Related Skills
+
+All other skills depend on this foundational setup. Refer to other skills once project initialization is complete:
+
+**Commonly Used Next Skills**
+- [react-router-configuration](../react-router-configuration/SKILL.md) - Configure application routes
+- [api-client-services](../api-client-services/SKILL.md) - Set up API clients and services
+- [global-state-management-zustand](../global-state-management-zustand/SKILL.md) - Create global stores
+- [reusable-ui-components](../reusable-ui-components/SKILL.md) - Build component library
+
 ## References
 
 - [Node.js LTS Downloads](https://nodejs.org/)

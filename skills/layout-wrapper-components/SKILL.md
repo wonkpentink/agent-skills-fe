@@ -55,7 +55,7 @@ const PrivateLayout: React.FC = () => {
 
     // Retrieve and decrypt authentication tokens
     const { menu, token, tokenEncrypted } = useMemo(() => {
-        const menuEncrypted = localStorage.getItem('smsf-mn');
+        const menuEncrypted = localStorage.getItem('apps-mn');
         const tokenKey = import.meta.env.VITE_APP_TOKEN_TYPE;
         const tokenEncrypted = tokenKey ? localStorage.getItem(tokenKey) : null;
         const token = tokenEncrypted ? decryptLS(tokenEncrypted) : '';
@@ -312,7 +312,7 @@ const PrivateLayout: React.FC = () => {
 
     // Retrieve encrypted tokens from localStorage
     const { menu, token, tokenEncrypted } = useMemo(() => {
-        const menuEncrypted = localStorage.getItem('smsf-mn');
+        const menuEncrypted = localStorage.getItem('apps-mn');
         const tokenKey = import.meta.env.VITE_APP_TOKEN_TYPE;
         const tokenEncrypted = tokenKey ? localStorage.getItem(tokenKey) : null;
         const token = tokenEncrypted ? decryptLS(tokenEncrypted) : '';

@@ -317,7 +317,7 @@ import { decryptLS } from "./Crypto";
 export const storeLastUrl = (url?: string): void => {
     const lastUrl = url ?? window.location.pathname + window.location.search;
     const encryptedUrl = encryptLS(JSON.stringify(lastUrl));
-    sessionStorage.setItem("smsf-lst-ul", encryptedUrl);
+    sessionStorage.setItem("apps-lst-ul", encryptedUrl);
 };
 
 /**
@@ -325,7 +325,7 @@ export const storeLastUrl = (url?: string): void => {
  * @returns Last stored URL or null if not found
  */
 export const getLastUrl = (): string | null => {
-    const encrypted = sessionStorage.getItem("smsf-lst-ul");
+    const encrypted = sessionStorage.getItem("apps-lst-ul");
     if (!encrypted) return null;
     
     try {
@@ -768,7 +768,7 @@ encryptedStorage.removeItem("userPrefs");
 
 1. **Create Menu Parser** - Decrypt and parse from storage
    ```typescript
-   export function getStoredMenus(storageKey = 'smsf-mn-fil') {
+   export function getStoredMenus(storageKey = 'apps-mn-fil') {
        const storedMenus = localStorage.getItem(storageKey);
        if (!storedMenus) return null;
        

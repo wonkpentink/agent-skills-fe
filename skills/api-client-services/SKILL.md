@@ -150,8 +150,8 @@ export const fetchAreaList = async (params: any) => {
         params: params,
         headers: {
             "Authorization": `token = ${token}`,
-            "DT-SMSF-Datetime": datetime,
-            "DT-SMSF-Signature": signature
+            "AP-CORP-Datetime": datetime,
+            "AP-CORP-Signature": signature
         }
     })
 
@@ -256,10 +256,10 @@ export const receiveIpPublic = async () => {
     // 3. Build authentication headers
     const headers = {
         Authorization: `token=${token}`,
-        'DT-SMSF-API-Key': apiKey,
-        'DT-SMSF-Source': source,
-        'DT-SMSF-DeviceID': deviceID,
-        'DT-SMSF-Datetime': datetime,
+        'AP-CORP-API-Key': apiKey,
+        'AP-CORP-Source': source,
+        'AP-CORP-DeviceID': deviceID,
+        'AP-CORP-Datetime': datetime,
         'Content-Type': 'application/json',
     };
 
@@ -388,8 +388,8 @@ export const receiveIpPublic = async () => {
        params,
        headers: {
            "Authorization": `token = ${token}`,
-           "DT-SMSF-Datetime": datetime,
-           "DT-SMSF-Signature": signature
+           "AP-CORP-Datetime": datetime,
+           "AP-CORP-Signature": signature
        }
    });
    ```
@@ -626,8 +626,8 @@ export const fetchContactsWithPagination = async (params: PaginationParams) => {
         },
         headers: {
             "Authorization": `token = ${token}`,
-            "DT-SMSF-Datetime": datetime,
-            "DT-SMSF-Signature": signature
+            "AP-CORP-Datetime": datetime,
+            "AP-CORP-Signature": signature
         }
     });
 
@@ -673,8 +673,8 @@ export const fetchCustomerListWithRetry = async (params: any) => {
             params,
             headers: {
                 "Authorization": `token = ${token}`,
-                "DT-SMSF-Datetime": datetime,
-                "DT-SMSF-Signature": signature
+                "AP-CORP-Datetime": datetime,
+                "AP-CORP-Signature": signature
             }
         })
     );
@@ -917,8 +917,8 @@ export const createAxiosClient = (apiName: keyof typeof BASE_URLS) => {
 
 **Verification Checklist:**
 - [ ] Authorization header included with correct token
-- [ ] DT-SMSF-Datetime header included and timezone correct
-- [ ] DT-SMSF-Signature header included and matches backend
+- [ ] AP-CORP-Datetime header included and timezone correct
+- [ ] AP-CORP-Signature header included and matches backend
 - [ ] Request body includes datetime and signature fields
 - [ ] All signature fields in exact order from API docs
 - [ ] Token is decrypted (not encrypted) when sent

@@ -1,3 +1,8 @@
+---
+name: theme-replication
+description: Extract and centralize the complete theme/design system from the SMSF Frontend CRM project into a standalone, reusable configuration.
+---
+
 # Theme Replication & Configuration Skill
 
 ## Overview

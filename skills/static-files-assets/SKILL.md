@@ -1,4 +1,3 @@
-```skill
 ---
 name: static-files-assets
 description: 'Complete guide for organizing static files and assets in src/assets/ and public/assets/. Use when managing project images, icons, SVGs, logos, and illustrations. Learn when to bundle assets with Vite (src/assets/) versus serving publicly without optimization (public/assets/). Covers icon naming conventions, image optimization, asset imports in components, and proper directory structure.'

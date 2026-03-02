@@ -1,13 +1,13 @@
 ---
 name: theme-replication
-description: Extract and centralize the complete theme/design system from the SMSF Frontend CRM project into a standalone, reusable configuration.
+description: Extract and centralize the complete theme/design system from the Frontend App project into a standalone, reusable configuration.
 ---
 
 # Theme Replication & Configuration Skill
 
 ## Overview
 
-This skill teaches you how to extract, centralize, and replicate the complete theme/design system from the SMSF Frontend CRM project into a standalone, reusable configuration. The current codebase uses **Tailwind CSS v4** with colors, typography, and spacing scattered across components. This skill shows how to consolidate all design tokens into a single TypeScript configuration module that can be:
+This skill teaches you how to extract, centralize, and replicate the complete theme/design system from the Frontend App project into a standalone, reusable configuration. The current codebase uses **Tailwind CSS v4** with colors, typography, and spacing scattered across components. This skill shows how to consolidate all design tokens into a single TypeScript configuration module that can be:
 
 - **Replicated** into other projects
 - **Used as default theme** for new projects

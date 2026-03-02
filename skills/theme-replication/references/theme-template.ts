@@ -1,7 +1,7 @@
 /**
  * Theme Configuration Template
  * 
- * This is a complete implementation of the SMSF Frontend CRM theme,
+ * This is a complete implementation of the Frontend App theme,
  * extracted and centralized from the current codebase.
  * 
  * Usage:

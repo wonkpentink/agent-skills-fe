@@ -93,7 +93,8 @@ npm install --save-dev typescript@~5.7.2 vite@6.3.6 \
 ```bash
 npm install --save-dev eslint@9.22.0 eslint-plugin-react \
   eslint-plugin-react-hooks @typescript-eslint/eslint-plugin \
-  @typescript-eslint/parser prettier
+  @typescript-eslint/parser prettier @types/node @types/react \ 
+  @types/react-dom
 ```
 
 **Note**: Installation typically takes 3-10 minutes. You'll see a `node_modules/` folder created with all packages.
@@ -485,15 +486,7 @@ export default App
 #### Create `src/index.css`
 
 ```css
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+@import "tailwindcss";
 
 html {
   scroll-behavior: smooth;
